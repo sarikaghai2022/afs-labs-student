@@ -26,6 +26,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/sarikaghai-harborproject/app@sha256:5dd2b98f4b6b4699f30e84784ded3b1d161ac07b2297b7e06272a78c4badc223
+        image: harbor.dev.afsmtddso.com/sarikaghai-harborproject/db:ebf2e52-dca55c6
         ports:
         - containerPort: 5432
